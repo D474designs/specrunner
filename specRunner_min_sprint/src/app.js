@@ -1,7 +1,12 @@
 // add x and y
 var sum = function (x, y) {
-  return x + y;
+  if (typeof x === 'string' && typeof y === 'number') {
+  return 'Not a Number';
+} else { return x + y;}
 };
 
 // multiply y from x
 // var multiply = ...
+var multiply = function (x, y) {
+  return x * y;
+};
