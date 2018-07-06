@@ -1,0 +1,26 @@
+1. Include path to source file under <!-- source files --> comment in SpecRunner.html
+
+2. Include path to test file under <!-- tests --> comment in SpecRunner.html What happens if we change the order of source file and test file? Discuss with your neighbor.
+
+3. We have defined sum function for you in app.js file. Our goal is to test this sum function from appSpec.js file to make sure it is working as intended. Open appSpec.js file then fix it('1 + 1 = 2', ...) test case, so it will pass the test.
+
+4. Add test case 2: compares 1 + -1 = 0 using sum function.
+
+5. Add test case 3: if type of first argument in sum function is string, it should return "Not a number" message string. Create a test case that handles this secnario. Expect that test case will fail since we haven't updated the sum function.
+
+6. Update sum function to pass the last test. This process is called test driven development.
+
+7. Inside beforeEach function block, use console.log to print message "running test case..." How does this affect your test cases?
+
+8. Add test set 2: create a test set that describe multiplication. Don't worry about actual calculation. we will do that part later.
+
+9. Add test case 1 in new test set: create a test case that compares 2 * 2 = 4. Expect that test case will fail since we haven't added mulitply function in apps.js
+
+10. Add multiply function app.js file to pass the last test.
+
+11. Click following link and read: http://www.chaijs.com/api/bdd/
+
+Use the reference to add new test case. Be creative:)
+
+
+
