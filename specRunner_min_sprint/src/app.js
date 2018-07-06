@@ -1,6 +1,6 @@
 // add x and y
 var sum = function (x, y) {
-  if (typeof x === 'string' && typeof y === 'number') {
+  if (typeof x === 'string') {
   return 'Not a Number';
 } else { return x + y;}
 };
