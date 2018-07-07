@@ -10,7 +10,8 @@ describe('calculation', function() {
     // test case 1:
     it('Expect 1 + 1 to equal 2', function() {
       // calculate result
-      expect(sum(1, 1)).to.equal(2);
+      result = sum(1, 1);
+      expect(result).to.equal(2);
       // compare result with expected value, 1
     });
 
@@ -30,7 +31,8 @@ describe('calculation', function() {
       console.log('running test case...');
 });
   it('Expect 2 * 2 to equal 4', function() {
-    expect(multiply(2, 2)).to.equal(4);
+    result = multiply(2,2);
+    expect(result).to.equal(4);
 });
 it('Expect -2 * -2 to equal 4', function() {
   expect(multiply(-2, -2)).to.equal(4);
